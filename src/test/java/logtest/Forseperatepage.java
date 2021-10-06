@@ -35,7 +35,7 @@ public class Forseperatepage {
 	File src =  sect.getScreenshotAs(OutputType.FILE);
 	File trg = new File("E://tst.pngg");
 	FileUtils.copyFile(src, trg);
-	Assert.fail()
+	Assert.fail();
 	}
 	@Test(dependsOnMethods  = {"createshot"})
 	public void submitsheet() {
