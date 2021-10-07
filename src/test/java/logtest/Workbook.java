@@ -3,13 +3,16 @@ package logtest;
 
 
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.annotations.Test;
 @Test
 public class Workbook {
 Logger log = LogManager.getLogger(Workbook.class);
+
 	public void lggg () {
+		DOMConfigurator.configure("log4j.xml");
 		System.out.println("\n hello world\n");
 		log.info("this is an information");
 		log.error("this is an error");
