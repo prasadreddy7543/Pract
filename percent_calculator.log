@@ -1,0 +1,4 @@
+2021-10-07 12:32:41  [logtest.Workbook] (main:) this is an information
+2021-10-07 12:32:41  [logtest.Workbook] (main:) this is an error
+2021-10-07 12:32:41  [logtest.Workbook] (main:) this is warn
+2021-10-07 12:32:41  [logtest.Workbook] (main:) this is fatal
