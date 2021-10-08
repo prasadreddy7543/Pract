@@ -24,9 +24,9 @@ public class Write {
 			Row row = sheet.createRow(i);
 			Cell c  =  row.createCell(0);
 		    if(i==0)
-		    	c.setCellValue("123");
+		    	c.setCellValue("1234");
 		    else
-		    	c.setCellValue("456");
+		    	c.setCellValue("4567");
 		    
 		    Cell c1 = row.createCell(1);
 		    if(i==1)
