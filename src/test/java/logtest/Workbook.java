@@ -14,7 +14,7 @@ Logger log = LogManager.getLogger(Workbook.class);
 	public void lggg () {
 		DOMConfigurator.configure("log4j.xml");
 		System.out.println("\n hello world\n");
-		log.info("this is an information");
+		log.info("this is an message information");
 		log.error("this is an error");
 		log.warn("this is warn");
 		log.fatal("this is fatal");
