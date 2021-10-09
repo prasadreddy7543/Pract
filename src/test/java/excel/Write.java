@@ -30,9 +30,9 @@ public class Write {
 		    
 		    Cell c1 = row.createCell(1);
 		    if(i==1)
-		    c1.setCellValue("asdfghjk");
+		    c1.setCellValue("pavanreddy");
 		    else
-		    	c1.setCellValue("ghjkasdf");
+		    	c1.setCellValue("prasad reddy");
 		}
 		FileOutputStream wrt = new FileOutputStream(new File("C:/Users/Public/testdata.xls"));
 		workbook.write(wrt);
