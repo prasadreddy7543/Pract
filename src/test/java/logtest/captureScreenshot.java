@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+//pavan
 public class captureScreenshot {
 WebDriver driver;
 @Test
