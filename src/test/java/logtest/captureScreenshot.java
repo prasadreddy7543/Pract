@@ -27,5 +27,5 @@ File src = ts.getScreenshotAs(OutputType.FILE);
 File trg = new File("E:\\test.png");
 FileUtils.copyFile(src, trg);
 //venkat
-	
+//amar	
 }}
