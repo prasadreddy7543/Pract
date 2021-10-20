@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //pavan
 public class captureScreenshot {
 WebDriver driver;
+//tpr
 @Test
 public void createscreem () throws Exception {
 	WebDriverManager.chromedriver().setup();
