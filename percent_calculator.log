@@ -2,3 +2,8 @@
 2021-10-07 12:32:41  [logtest.Workbook] (main:) this is an error
 2021-10-07 12:32:41  [logtest.Workbook] (main:) this is warn
 2021-10-07 12:32:41  [logtest.Workbook] (main:) this is fatal
+2021-10-24 16:32:55  [logtest.Aler] (main:) cusid is qwert
+2021-10-25 09:24:08  [logtest.Aler] (main:) cusid is qwert
+2021-10-25 09:30:36  [logtest.Aler] (TestNG-test=Test-2:) cusid is qwert
+2021-11-08 15:15:05  [logtest.Aler] (main:) cusid is qwert
+2021-11-08 15:16:57  [logtest.Aler] (main:) cusid is qwert

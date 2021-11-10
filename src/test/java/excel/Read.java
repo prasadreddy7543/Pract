@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class Read {
 @Test
-public void bok () throws Exception, Exception {
+public void bok () throws Exception, Exception  {
 	HSSFWorkbook workbook = new HSSFWorkbook(new FileInputStream("C:/Users/Public/testdata.xls"));
 	HSSFSheet sheet = workbook.getSheet("first sheet");
 	int rowcount = sheet.getLastRowNum();
